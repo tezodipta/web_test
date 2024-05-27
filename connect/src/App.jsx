@@ -9,14 +9,33 @@
 //   }}
 // }
 // src/App.jsx
+
+
+// import React from 'react';
+// import './App.css';
+// import UsersList from './UserList.jsx';
+// import Graph from './graph.jsx';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <UsersList />
+//     </div>
+    
+//   );
+// }
+
+
+// export default App;
+
 import React from 'react';
 import './App.css';
-import UsersList from './UserList.jsx';
+import Graph from './graph.jsx';
 
 function App() {
   return (
     <div className="App">
-      <UsersList />
+      <Graph />
     </div>
   );
 }
